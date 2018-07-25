@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.index .main-nav, .index .cta, .index .top-content, .index .bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.index .main-nav {
+    margin-top: 25px;
+}
+
+.index .main-nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+.index .cta {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.index .cta-text {
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index .cta-text button {
+    width: 100px;
+    align-self: center;
+}
+
+.index .top-content {
+    border-top: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.index .middle-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.index .bottom-content {
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.index .contact {
+    padding-top: 40px;
+}
+
+/*CSS Below for Services Page*/
+
+.services .main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.services .main-nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+.services .services-header-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.services .services-header h1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.services .main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.services .main-content .text-content {
+    width: 480px;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+.services .main-content .text-content button {
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.services .services-info{
+    margin-top: 30px;
+}
+
+.services .services-info-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .services-info-text {
+    width: 500px;
+}
+
+.services .list {
+    margin-top: 20px;
+    list-style: inside;
+    line-height: 25px;
+}
+
+.services footer {
+    margin-top: 65px;
+    text-align: center;
+}
